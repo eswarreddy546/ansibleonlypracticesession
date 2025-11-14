@@ -1,0 +1,8 @@
+- name: server is pining or not
+  hosts: dev
+  become: yes
+
+  tasks:
+    - name: we are cheking server is pining or not
+      ansible.builtin.ping:
+       msg: {{"server is pining fine"}}
