@@ -1,0 +1,11 @@
+- name: inside task we are declaring the variables
+  hosts: dev
+
+  tasks:
+    course: python
+    fee: 10k
+    duration: 1M
+
+- name:
+  ansible.builtin.debug:
+   msg: "{{course}}, {{fee}}, {{duration}}"      
