@@ -2,9 +2,9 @@
   host: dev
   
   vars:
-   - course: java
-   - fee: 20k
-   - duration: 2 months
+    course: java
+    fee: 20k
+    duration: 2 months
 
   tasks:
     - name: we are declaring and passing variables
