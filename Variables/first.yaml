@@ -1,5 +1,5 @@
 - name: now i am passing the variables
-  host: dev
+  hosts: dev
   
   vars:
     course: java
