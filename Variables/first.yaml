@@ -1,6 +1,6 @@
 - name: now i am passing the variables
   host: dev
-  become: yes
+  
   vars:
    - course: java
    - fee: 20k
