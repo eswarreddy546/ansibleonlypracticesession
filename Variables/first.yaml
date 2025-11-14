@@ -2,12 +2,12 @@
   hosts: dev
   become: yes
   vars:
-    course: java
-    fee: 20k
-    duration: 2 months
+   - course: java
+   - fee: 20k
+   - duration: 2 months
 
   tasks:
     - name: we are declaring and passing variables
       ansible.builtin.debug:
-       msg: {{"course","fee","duration"}}
+       msg: "{{course},{fee},{durarion}}"
       
