@@ -1,0 +1,14 @@
+- name: now i am passing the variables
+  hosts: local
+  connection: local
+  become: yes
+  vars:
+    course: java
+    fee: 20k
+    duration: 2 months
+
+  tasks:
+    - name: we are declaring and passing variables
+      ansible.builtin.debug:
+       msg: {{course details:"course","fee","duration"}}
+      
