@@ -1,6 +1,5 @@
 - name: now i am passing the variables
-  hosts: local
-  connection: local
+  hosts: dev
   become: yes
   vars:
     course: java
