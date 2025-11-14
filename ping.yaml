@@ -5,4 +5,3 @@
   tasks:
     - name: we are cheking server is pining or not
       ansible.builtin.ping:
-       msg: {{"server is pining fine"}}
