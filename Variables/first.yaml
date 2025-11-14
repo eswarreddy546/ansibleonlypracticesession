@@ -9,5 +9,5 @@
   tasks:
     - name: we are declaring and passing variables
       ansible.builtin.debug:
-       msg: {{course details:"course","fee","duration"}}
+       msg: {{"course","fee","duration"}}
       
